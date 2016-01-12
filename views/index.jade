@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= "Hipstafy"
+  p "how to be hipsta-licious"
+  br
+  p "Write a sentence or two, and we'll hipstafy it for you!"
+  form(name="theform",method="post")
+    input(type="text",name="word")
+    input(type="submit")
+  br
+  p(name="changed")
